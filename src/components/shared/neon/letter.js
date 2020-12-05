@@ -4,8 +4,12 @@ import styled from "styled-components"
 const Glow = styled.div`
   color: #fff;
   padding: 0.3em;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
-    0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff,
+    0 0 40px ${({ theme: { colors } }) => colors.winterSky},
+    0 0 80px ${({ theme: { colors } }) => colors.winterSky},
+    0 0 90px ${({ theme: { colors } }) => colors.winterSky},
+    0 0 100px ${({ theme: { colors } }) => colors.winterSky},
+    0 0 150px ${({ theme: { colors } }) => colors.winterSky};
 `
 
 const NoGlow = styled.div`

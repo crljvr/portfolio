@@ -1,6 +1,6 @@
 import * as React from "react"
 import styled from "styled-components"
-import Letter from "../shared/neon"
+import { Letter } from "../../shared/neon"
 
 const Word = styled.div`
   display: flex;
