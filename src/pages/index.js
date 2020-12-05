@@ -1,14 +1,12 @@
 import React from "react"
+import Section from "../components/section"
+import "../components/index.css"
 
 const IndexPage = () => (
-  <div
-    style={{
-      display: "flex",
-      justifyContent: "center",
-    }}
-  >
-    <h1>crljvr.dev is coming soon...</h1>
-  </div>
+  <>
+    <Section />
+    <Section />
+  </>
 )
 
 export default IndexPage
